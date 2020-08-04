@@ -1,0 +1,74 @@
+body{
+    background-image: url('Screenshot_20200731_123034.png');
+    font-size: 20px;
+    font-style: italic;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    background-color: rgb(220, 214, 226);
+
+}
+header{
+    width:  80px;
+    margin: auto;
+    overflow: hidden;
+}
+.head{
+    float: left;
+    color: #fff;
+    font-family: cursive;
+}
+nav{
+    float: right;
+}
+ul{
+    margin: 0;
+    margin: 0;
+}
+ul li{
+    list-style:none;
+    display: inline-block;
+    float: left;
+    padding: 1rem;
+}
+ul li a{
+    font-size: 14px;
+    font-family: aerial;
+    color: blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+}
+.active{
+    color: gold;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 1%;
+}
+showcase h2{
+    color: #fff;
+    font-family: cursive;
+    text-align: center;
+}
+showcase h3{
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.category{
+    color: green;
+    font-weight: bolder;
+    margin-top: 5%;
+    display: flex;
+    text-align: left;
+    font-family: cursive;
+}
+ img{
+    width: 70%;
+    border-radius: 70%;
+}
+.mid,.fruits{
+    padding-left: 1rem;
+}
