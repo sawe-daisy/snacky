@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF_8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <style>
+            body{
+                background-color: rgb(220, 214, 226);
+            }
+            .container{
+                width: 70%;
+                margin: auto;
+                overflow: hidden;
+                margin-top: 1%;
+            }
+            .active{
+                color: gold;
+            }
+            .button {
+                border: none;
+                outline: 0;
+                display: inline-block;
+                padding: 8px;
+                color: white;
+                background-color: #000;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+            }
+
+            .button:hover {
+                background-color: #555;
+            }
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+.cont{
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+        </style>
+    </head>
+    <body>
+            <div  class="cont" style="text-align:center; font-size: 20px; font-weight: bold;">
+              <h2>Contact Us</h2>
+              <p>Swing by for a cup of coffee, or leave us a message:</p>
+            </div>
+            <div class="container"></div>
+            <div class="row">
+              <div class="column">
+              </div>
+              <div class="column">
+                <form action="/action">
+                    <div style="padding-top: 20px;">
+                        <label  for="fname">First Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label for="country">Country</label>
+                        <select id="country" name="county">
+                        <option value="#">NAIROBI</option>
+                        <option value="#">NANDI</option>
+                        <option value="#">TURKANA</option>
+                        <option value="#">KAJIADO</option>
+                        <option value="#">KISUMU</option>
+                        <option value="#">MOMBASA</option>
+                        </select>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                    </div>
+                    <div style="margin-top: 20px;">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>

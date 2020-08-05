@@ -1,22 +1,18 @@
 body{
-    background-image: url('Screenshot_20200731_123034.png');
     font-size: 20px;
     font-style: italic;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: sans-serif;
     background-color: rgb(220, 214, 226);
-
 }
 header{
-    width:  80px;
     margin: auto;
     overflow: hidden;
 }
 .head{
     float: left;
-    color: #fff;
-    font-family: cursive;
+    color:#474e5d;
 }
 nav{
     float: right;
@@ -27,12 +23,11 @@ ul{
 }
 ul li{
     list-style:none;
-    display: inline-block;
-    float: left;
+    float: right;
     padding: 1rem;
 }
 ul li a{
-    font-size: 14px;
+    font-size: 20px;
     font-family: aerial;
     color: blueviolet;
     text-decoration: none;
@@ -48,17 +43,17 @@ ul li a{
     margin-top: 1%;
 }
 showcase h2{
-    color: #fff;
+    color:#474e5d;
     font-family: cursive;
     text-align: center;
 }
 showcase h3{
-    color: #fff;
+    color: #474e5d;
     text-align: center;
     letter-spacing: 2px;
 }
 .category{
-    color: green;
+    color:#474e5d;
     font-weight: bolder;
     margin-top: 5%;
     display: flex;
